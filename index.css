@@ -1,0 +1,267 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #009BDB;
+    background-size: cover;
+    position: fixed;
+    min-height: 15vh;
+    width: 100%;
+    
+}
+
+.logo {
+    float: left;
+    width: 120px;
+    height: 100px;
+   margin-bottom: 40px;
+}
+
+nav {
+    background: #006;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    float: left;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 4px;
+    display: block;
+}
+
+.alimentos {
+    float: left;
+    width: 100%;
+}
+
+.texto-encima{
+    position: absolute;
+    top: 250px;
+    left: 330px;
+    color: #f4511e;
+    font-weight:900;
+    font-size: 47px;
+   
+}
+.centrado {
+    position: absolute;
+    top: 550px;
+    left: 350px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.inicio {
+    display: block;
+    float: right;
+}
+
+.formulario {
+    position: absolute;
+    top: 580px;
+    left: 380px;
+}
+
+#completo {
+    text-align:left;
+    font-size: 16px;
+    padding: 10px;
+    width: 500px;
+    
+}
+#boton {
+    border-radius: 20px;
+    background-color:white;
+    border: none;
+    color: gray;
+    font-size: 13px;
+    padding: 15px;
+    width: 90px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#descarga {
+  border-radius: 30px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 12px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 20px;
+  position: fixed;
+  top: 90%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+p {
+    position: absolute;
+    margin-left: 50px;
+    margin-right: 50px;
+    top: 240px;
+    left: 12Opx;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+ 
+}
+
+.login {
+    border-radius: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #009BDB;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.ingreso {
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 7px;
+}
+
+#sub-items {
+    display: block;
+    margin: 0 auto;
+}
+
+#enter {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color:#f4511e;
+    border: none;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+#crear {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color:#006;
+    border: none;
+    color: white;
+    font-size: 13px;
+    padding: 10px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    left: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#crear a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#olvido {
+    display: block;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#olvido  a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.items-list {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #cfcfcf;
+}
+
+.search-item-name {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+#search-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.ayuda {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ayuda-title {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.ayuda-list {
+    list-style-type: none;
+    background-color: #eeeeee;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.ayuda-list li {
+    margin: 10px; 
+}
+
+.ayuda-list li a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
