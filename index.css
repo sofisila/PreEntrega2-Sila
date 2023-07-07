@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -12,7 +12,7 @@ header {
     position: fixed;
     min-height: 15vh;
     width: 100%;
-    
+    z-index: 1000;
 }
 
 .logo {
@@ -209,8 +209,8 @@ p {
 }
 
 .items-list {
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 hr {
@@ -226,7 +226,7 @@ hr {
 
 .search-item-name {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 #search-item a {
@@ -264,4 +264,13 @@ hr {
 .ayuda-list li a {
     text-decoration: none;
     color: #2a2a2a;
+}
+
+#mapa {
+    max-width: 100%;
+    z-index: 999;
+}
+
+main {
+    padding-top: 1px;
 }
